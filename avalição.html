@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avaliação - Colégio Vitória</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Estilos gerais */
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    /* Estrutura principal */
+    body {
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(to bottom, white, rgb(126, 183, 248));
+    }
+
+    /* Cabeçalho */
+    header {
+      background-color: #003366; /* Azul escuro */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    header p {
+      margin-top: 5px;
+      font-size: 16px;
+    }
+
+    /* Conteúdo principal */
+    main {
+      flex: 1; /* Faz o conteúdo principal ocupar o espaço disponível */
+      padding: 20px;
+      text-align: center;
+      background-image: url(./imagens/03.png);
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: 28%;
+    }
+
+    main h2 {
+      color: #003366; /* Azul escuro */
+      margin-bottom: 10px;
+    }
+
+    main p {
+      font-size: 18px;
+      color: #3b3b3b;
+    }
+
+    .text{
+        width: 50%;
+        margin: 50px auto;
+    }
+
+    .text p{
+        text-align: justify;
+    }
+    @media (width < 920px) {
+        .text{
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .text p{
+        text-align: justify;
+    }
+    }
+
+    /* Botão de avaliação */
+    .btn-avaliacao {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background-color: #003366; /* Azul escuro */
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-avaliacao:hover {
+      background-color: #00509e; /* Azul mais claro */
+    }
+
+    /* Rodapé */
+    footer {
+      background-color: #cc0000; /* Vermelho */
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Avaliação do Colégio Vitória</h1>
+    <p>Como você avalia o colégio na sua experiência de ensino durante o curso técnico?</p>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main>
+    <h2>Participe da Avaliação</h2>
+    <div class="text">
+        <p>Parabéns pela sua trajetória conosco! Sua formação no Colégio Vitória reflete nosso compromisso com a excelência na educação técnica em saúde, construído ao longo de mais de 25 anos. Queremos saber sua opinião sobre a qualidade de ensino e o impacto no seu aprendizado.
+        Sua avaliação é essencial para continuarmos transformando vidas e formando profissionais qualificados.</p>
+    </div>
+    <p>Por favor, clique no botão abaixo para compartilhar sua opinião sobre o Colégio Vitória.</p>
+
+    <!-- Botão para avaliação -->
+    <a href="https://g.page/r/CaoupIkbiCJtEBM/review" target="_blank" class="btn-avaliacao">Acessar Avaliação</a>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 Colégio Vitória. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
